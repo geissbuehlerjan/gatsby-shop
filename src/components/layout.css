@@ -6,7 +6,7 @@
   --mainDark: #222;
   --mainBlue: #477ca7;
   --mainPurple: #74638f;
-  --mainGreen: #a3d5d3;
+  --mainGreen: rgb(163, 213, 211);
 }
 
 body {
@@ -30,4 +30,13 @@ h6 {
   cursor: pointer;
   color: var(--mainDark);
   font-size: 2rem;
+}
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(163, 213, 211), rgba(163, 213, 211));
+  background-position: center;
+  background-size: cover;
 }
