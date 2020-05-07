@@ -1,5 +1,5 @@
 :root {
-  --mainBrown: #2d1ef1;
+  --mainBrown: #2d1e1f;
   --mainYellow: #ff9e09;
   --mainGrey: #ece8dc;
   --mainWhite: #ffff;
@@ -31,7 +31,8 @@ h6 {
   color: var(--mainDark);
   font-size: 2rem;
 }
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -39,4 +40,18 @@ h6 {
   background: linear-gradient(rgba(163, 213, 211), rgba(163, 213, 211));
   background-position: center;
   background-size: cover;
+}
+.about-background {
+  min-height: 60vh;
+}
+.btn-yellow {
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
+}
+.btn-yellow:hover {
+  background: var(--mainWhite);
+  color: var(--mainGreen) !important;
+}
+.footer {
+  background: var(--mainBrown);
 }
