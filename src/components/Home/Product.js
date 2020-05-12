@@ -17,7 +17,7 @@ export default function Product({ product }) {
             data-item-url="https://unterbachnertuurli.netlify.app/"
             data-item-image={product.image.fluid.src}
           >
-            > Buchen
+            Buchen
           </button>
         </div>
       </div>
