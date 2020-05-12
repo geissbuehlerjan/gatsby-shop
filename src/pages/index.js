@@ -14,7 +14,6 @@ const IndexPage = ({ data }) => (
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="unterbächner tüürli"
-      styleClass=""
     />
     <Info />
     <Menu items={data.menu} />
