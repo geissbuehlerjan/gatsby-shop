@@ -16,6 +16,9 @@ export default function Product({ product }) {
             data-item-price={product.price}
             data-item-url="https://unterbachnertuurli.netlify.app"
             data-item-image={product.image.fluid.src}
+            data-item-custom1-name="Gewünschtes Datum und Zeit"
+            data-item-custom1-type="textarea"
+            data-item-custom2-placeholder="date"
           >
             Buchen
           </button>
