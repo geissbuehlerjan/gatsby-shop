@@ -22,7 +22,7 @@ export default class Menu extends Component {
   }
   handleItems = category => {
     let tempItems = [...this.state.items]
-    if (category === "all") {
+    if (category === "alle") {
       this.setState(() => {
         return { tourItems: tempItems }
       })
