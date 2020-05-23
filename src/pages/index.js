@@ -16,9 +16,10 @@ const IndexPage = ({ data }) => (
       title="unterbächner tüürli"
       styleClass="default-background"
     />
+    <Products />
     <Info />
     <Menu items={data.menu} />
-    <Products />
+
     <Contact />
   </Layout>
 )
