@@ -5,30 +5,23 @@ export default function Info() {
   return (
     <section className="py-5">
       <div className="container">
-        <Title title="Die Tour"></Title>
+        <Title title="5 Stationen - 400 Höhemeter - 1 nice View"></Title>
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Die Wanderung beginnt bei der Bergstation der Gondelbahn
-              Unterbäch. Dort erhalten die Teilnehmenden ihr Starterpacket. Von
-              dort aus gehts auf den nahe gelegenen Aussichtspunkt «Hohegga» (1)
-              wo man einen spektakulären Ausblick über das ganze Dorf und die
-              Bergkette mit dem imposanten Bietschhorn hat. Der perfekte Ort um
-              mit einem Glas Weisswein* aus dem Wallis auf eine schöne Wanderung
-              anzustossen. Frisch gestärkt gehts auf den steilsten Teil der
-              Wanderung. In kurzer Zeit werden Höhemeter überwunden. Das ist
-              streng, aber oben wartet die Belohnung: Die Degustation des
-              zweiten Weins in der «Egga» (2). Es geht weiter bergauf, immer der
-              Nase nach. Im Restaurant «Alpenrösli» (3) auf der Brandalp wartet
-              nämlich die Walliser Cholera auf die hungrigen Wanderer. Von nun
-              an gehts bergab. Entlang des Themenweges «Rütli der Schweizer
-              Frau» gehts auf die Alp «Holz» (4). Auf die Ankunft wird
-              angestossen. Der letzte Wegabschnitt führt zurück ins Dorf (5).
-              Dort wird das Tüürli abgerundet mit einem letztem «Glasji» Wein.
+              Bei der Bergstation der LRU in Unterbäch fasst ihr gegen Bezahlung
+              euere Starterpacks. Diese enthalten alles was ihr für das Tüürli
+              braucht: Eine Wegbeschreibung, den Schlüssel für die Stationen und
+              natürlich ein Glas (nur für die Weintour). Danach startet ihr
+              direkt Richtung "Hohegga". Auf dem Weg erwarten euch insgesamt
+              fünf Degustationsstationen. Bei der dritten auf der "Brandalp"
+              wartet ein Mittagessen auf euch. Übers Holz gehts zurück ins Dorf.
+              Bei der letzten Station, könnt ihr den Schlüssel in den
+              installierten "Briefkasten" werfen.
             </p>
             <Link to="/about/">
               <button className="btn text-uppercase btn-yellow">
-                about page
+                Anreise Unterbäch
               </button>
             </Link>
           </div>

@@ -13,10 +13,11 @@ export default class Navbar extends Component {
         path: "/",
         text: "home",
       },
+
       {
         id: 2,
         path: "/about",
-        text: "about",
+        text: "Anreise Unterbäch",
       },
     ],
   }

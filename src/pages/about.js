@@ -4,17 +4,17 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
-import Info from "../components/Home/Info"
+import Anreise from "../components/Home/Anreise"
 
 const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="idee"
+      title="Anreise Unterbäch"
       styleClass="about-background"
     />
-    <Info />
+    <Anreise />
   </Layout>
 )
 
