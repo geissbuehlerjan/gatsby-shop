@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", Courier, monospace !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   letter-spacing: 0.25rem !important;
 }
 .text-yellow {
@@ -65,36 +65,4 @@ h6 {
   justify-content: center;
   background-position: center;
   background-size: cover;
-}
-
-/* Footer */
-
-#footer {
-  padding: 2rem 0 0.1rem 0;
-  text-align: center;
-}
-
-#footer a {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-#footer a:hover {
-  color: #fff;
-}
-
-#footer .copyright {
-  color: #bbb;
-  font-size: 0.9rem;
-  margin: 0 0 2rem 0;
-  padding: 0 1rem;
-  text-align: center;
-}
-
-@media screen and (max-width: 736px) {
-  #footer {
-    padding: 1rem 0 0.1rem 0;
-  }
-}
-.whiteText {
-  color: white;
 }

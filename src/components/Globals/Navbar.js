@@ -15,9 +15,11 @@ export default class Navbar extends Component {
       },
 
       {
+        /*
         id: 2,
         path: "/about",
         text: "Anreise Unterbäch",
+      */
       },
     ],
   }

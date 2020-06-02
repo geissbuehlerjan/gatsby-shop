@@ -10,7 +10,7 @@ export default function Footer() {
           </a>
         </ul>
       </div>
-      <div class="copyright">
+      <div class="container">
         &copy; <a href="https://www.instagram.com/jangbhlr/?hl=de">jangbhlr</a>{" "}
         All rights reserved {new Date().getFullYear().toString()}
       </div>

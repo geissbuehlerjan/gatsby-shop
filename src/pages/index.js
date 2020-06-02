@@ -13,11 +13,11 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="unterbächner tüürli"
+      title="Tüürli"
       styleClass="default-background"
     />
     <Products />
-    <Info />
+    {/*<Info />*/}
     {/*<Menu items={data.menu} />*/}
 
     <Contact />
